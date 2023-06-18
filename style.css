@@ -1,0 +1,19 @@
+aside {
+    color: white;
+    background-color: darkblue;
+}
+
+.navbar {
+    display: block;
+}
+
+
+.navbar a {
+    color: inherit;
+    text-decoration: inherit;
+    display: inline-block;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
