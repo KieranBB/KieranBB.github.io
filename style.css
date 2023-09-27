@@ -1,10 +1,18 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 242, 225);
+}
+
+
 aside {
     color: white;
-    background-color: darkblue;
+    background-color: rgb(17, 17, 17);
 }
 
 .navbar {
-    display: block;
+    display: flex;
+    justify-content: space-around;
 }
 
 
@@ -12,8 +20,14 @@ aside {
     color: inherit;
     text-decoration: inherit;
     display: inline-block;
-    padding-left: 1em;
-    padding-right: 1em;
+    padding-left: 0em;
+    padding-right: 0em;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+h1 {
+    font-size: 80px;
+    line-height: 80%;
+}
 
